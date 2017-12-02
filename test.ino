@@ -29,12 +29,12 @@ void setup() {
 
 void loop() {
 
-  //200us
+  //200us (Teensy 3.2 @ 96MHz)
   for (int i = 0; i < 256; i++) {
     leds[i] = CHSV(i+f, 255, 255);
   }
   
-  //860us
+  //860us (Teensy 3.2 @ 96MHz)
   outputLEDs();
 
   f++;
