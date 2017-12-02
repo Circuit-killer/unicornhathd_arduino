@@ -22,7 +22,6 @@ void setup() {
   digitalWrite(10, HIGH);
   
   SPI.begin();
-  Serial.begin(9600);
 
   clearLEDs();
 
